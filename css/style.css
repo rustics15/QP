@@ -168,3 +168,31 @@
     text-decoration: underline;
     font-style: italic;
 }
+/*END OF REFERENCES*/
+
+/*STUDY BACKGROUND*/
+#studybgtext{
+    position: relative;
+    top: 8vh;
+}
+#studybgtext #heading{
+    font-size: 8vh;
+}
+/*END OF STUDY BACKGROUND*/
+
+/*MAIN CONTENT*/
+#graphs{
+    background-color: pink;
+    width: 75vw;
+    height: 65vh;
+    position: relative;
+    left: 25vh;
+}
+#graphs .graph{
+    display: inline-block;
+    position: relative;
+    margin: 2vw;
+    background-color: blue;
+    height: 25vh;
+    width: 20vw;
+}
