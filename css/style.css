@@ -65,24 +65,33 @@
 }
 
 #body{
-    text-align: center;
+    text-align:center;
     background-color: #FEFCD2;
     height: 80vh;
     width: 100vw;
 }
+
 .text #header{
     position: relative;
     top: 5vh;
     font-size:6vh;
     width: 50vw;
     padding: 2vh;
-    text-wrap:pretty;
 }
 .text p{
     position: relative;
     top: 5vh;
     width: 50vw;
 }
+.text a{
+    background-color: grey;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50px;
+}
+
 #footer{
     align-items: flex-end;
     height: 10vh;
@@ -117,4 +126,45 @@
     border: 1px solid black;
     height: 3vw;
     border-radius: 50%;
+}
+
+/*END OF HOME PAGE*/
+
+/*ABOUT*/
+.intro{
+    display: inline-block;
+    background-color:#252525;
+    position: relative;
+    top: 10vh;
+    height: 50vh;
+    width: 25vw;
+    border-radius: 10px;
+    border: 1px solid black;
+    color:#FCFBF7;
+}
+.intro img{
+    height: 25vh;
+    border-radius: 10px;
+    padding: 1vh;
+}
+.intro h2{
+    text-shadow: 1px 1px black;
+}
+.intro p{
+    font-size: 2vh;
+}
+/*END OF ABOUT*/
+
+/*REFERENCES*/
+#body #references{
+    position: relative;
+    top: 8vh;
+    text-decoration: solid;
+
+}
+#body .reflink{
+    position: relative;
+    top: 9vh;
+    text-decoration: underline;
+    font-style: italic;
 }
